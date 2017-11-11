@@ -1,0 +1,27 @@
+{
+  "name": "fastify-knex",
+  "version": "0.1.1",
+  "description": "Dead Simple Fastify Knex Plugin",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run lint"
+  },
+  "keywords": [
+    "node",
+    "postgres",
+    "knex",
+    "fastify",
+    "pg"
+  ],
+  "author": "Rheza Satria",
+  "license": "MIT",
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "knex": "^0.14.0"
+  }
+}
