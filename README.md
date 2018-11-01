@@ -30,7 +30,7 @@ This plugin will add the `knex` namespace in your Fastify instance.
   function registerPlugins(fastify, opts, next) {
     fastify.register(require('fastify-knex'), {
       client: 'pg',
-      debug: true // Knex debug SQL
+      debug: true, // Knex debug SQL
       connection: 'psql://angel:Som3p@ss@localhost:5432/angel'
     });
 
